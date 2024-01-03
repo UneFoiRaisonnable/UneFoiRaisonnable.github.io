@@ -1,0 +1,54 @@
+body.right{background: gainsboro ; margin-top:15px}
+small{font:12px sans-serif; color:maroon}
+big{font:15px serif;font-weight 600;line-height:25px ;color:teal}
+em{font:17px Times, serif ; color:saddlebrown;line-height:24px}
+b{font:17px Times, serif;color:darkgreen;font-weight:500;line-height:24px}
+table{border:1px}
+table.notes{background-color:azure;width: 100%;font-size:12px; color:midnightblue}
+table.texte{padding:8px;background-color:ivory;width: 100%}
+table.plan{background-color:gainsboro;width: 100%; border-spacing:0px}
+table.pdt{background-color:ivory; color:midnightblue;width:100%;
+font-size:12px; line-height:20px;text-indent:20px}
+td.nm{vertical-align:top;text-align:center;width:30px; background-color:azure; padding:0px}
+td.tr{text-indent:10px;text-align:left;padding:5px;background-color:azure
+; font:15px Utopia,Georgia,"Century Schoolbook",serif ;line-height:25px;font-weight:normal; color:navy}
+td.nt{text-align:left;padding:5px;background-color:ivory ; font:15px "MS Trebuchet",Helvetica,Arial,sans-serif;font-weight:normal;line-height:24px; color:black}
+td.trd{text-indent:10px;text-align:justify;padding:10px;background-color:ivory
+; font:16px Utopia,Georgia,"Century Schoolbook",serif ;line-height:25px;font-weight:normal; color:indigo}
+td.mrc{vertical-align:top;text-align:center;width:100px;
+background-color:ivory; padding:3px;border: thin solid
+firebrick;border-bottom-width:0px;font:16px Helvetica,Arial,sans-serif
+;line-height:25px;}
+td.mrcf{vertical-align:top;text-align:center;width:100px;
+background-color:ivory; padding:3px;border: thin solid firebrick;font:16px Helvetica,Arial,sans-serif ;line-height:25px;}
+td.pl{text-indent:0px;text-align:left;padding:5px;background-color:gainsboro
+; font:12px Century Schoolbook,Verdana
+;line-height:16px;font-weight:500; color:black;border: thin solid firebrick ;border-left-width:0px;border-bottom-width:0px}
+td.plf{text-indent:0px;text-align:left;padding:5px;background-color:gainsboro
+; font:12px Century Schoolbook,Verdana
+;line-height:16px;font-weight:500; color:black;border: thin solid firebrick ;border-left-width:0px}
+
+p.t{text-indent:10px}
+.cp{font:16px Helvetica,Arial,sans-serif ;line-height:20px; color:#CF0000}
+.vs{font:13px Helvetica,Arial,sans-serif;line-height:20px; color:red}
+.v{font:11px Helvetica,Arial,sans-serif; color:red}
+
+h2{color:maroon;text-align:center;font-size:16px; font-weight:medium;line-height:32px}
+h3{color:black;text-align:center;font-family: Utopia,Georgia;font-size:15px;line-height:25px; font-weight:medium}
+h4{color:black;text-align:center;font-size:14px; font-weight:medium;line-height:20px}
+h5{color:firebrick;text-align:center;font-family: Utopia,Georgia,Times
+;font-size:20px; line-height:30px; font-weight:light}
+.h7{color:maroon;text-align:left;font-size:14px;line-height:20px; font-weight:medium;text-align:center}
+.h8{font:15px Utopia,Georgia,Times;font-variant:small-caps;line-height:24px; font-weight:bold;color:darkslategray}
+ol.pch{list-style-type: upper-roman}
+
+A {
+ TEXT-DECORATION: none
+}
+A:link {
+    COLOR:blue
+}
+A:visited {
+    COLOR:blue
+}
+A:hover { COLOR:firebrick ;font-weight:bold }

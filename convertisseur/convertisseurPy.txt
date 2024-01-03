@@ -1,0 +1,15 @@
+import codecs
+import os
+
+src = "C:\\GitHub\\UneFoiRaisonnee\\UneFoiRaisonnable.github.io\\ProjetEvangileDeMatthieu\\Matthieu\\"
+dest = "C:\\GitHub\\UneFoiRaisonnee\\UneFoiRaisonnable.github.io\\ProjetEvangileDeMatthieu\\Matthieu\\convertisseur\\"
+
+def convert_to_utf8(file_path):
+    for file in os.listdir(src):
+        if file.endswith('.html'):
+            with codecs.open(os.path.join(src, file), 'r', 'ansi') as source_file:
+                with codecs.open(os.path.join(dest, file), 'w', 'utf-8') as target_file:
+                    target_file.write(source_file.read())
+                    print(f"Converted {file} to utf-8")
+
+convert_to_utf8('dest')
